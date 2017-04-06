@@ -49,7 +49,7 @@ gen_env_file
         echo "complile OK"
         echo "copy bin to win shared path $WIN_SHARED_PATH"
         cp bin/raw_flashimage_AR401X_REV6_IOT_hostless_unidev_dualband.bin  $WIN_SHARED_PATH
-	    exit 0
+        exit 0
     else
         echo "complile fail $tmp\r\n"
         exit 1
